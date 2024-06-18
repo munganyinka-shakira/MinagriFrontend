@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.WelcomePage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+.WelcomePage .container {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.WelcomePage .left, .WelcomePage {
+  flex: 1;
+  padding: 20px;
+}
+
+.WelcomePage .left {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WelcomePage .right {
+  background: linear-gradient(to bottom right, #00796b, #004d40);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.WelcomePage h1 {
+  color: #00796b;
+  margin-bottom: 10px;
+}
+.WelcomePage .title-box {
+  background: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #ddd;
+  display: flex; /* Use flexbox for layout control */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 300px; /* Adjust height as per your requirement */
+}
+.title-box h6 {
+  margin: 0 !important;/* Remove default margin for h6 and h5 tags */
+  color: #72e7e9; 
+  text-decoration: underline;
+  text-decoration-color:#38585a;
+} 
+.title-box h6 span{
+  margin: 0 !important;/* Remove default margin for h6 and h5 tags */
+  color: #72e7e9;
+} 
+.title-box h5{
+margin:0 !important;
+color:#38585a
+}
+.title-box h4{
+  margin:0 !important;
+  color: #72e7e9;
+  }
+.title-box .highlight {
+  color: #38585a; /* Change color of the word "AGRICULTURE" */
+}
+.WelcomePage .login-box {
+  /* background: #f8f9fa; */
+  padding: 20px;
+  margin-top: 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.WelcomePage .login-button {
+  background: linear-gradient(to right, #446ed6, #9ebdee);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.WelcomePage .login-button:hover {
+  background: linear-gradient(to right, #a7b3de, #364f9a);
+}
+
+.WelcomePage .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.WelcomePage .links a {
+  text-decoration: none;
+  color: #00796b;
+  transition: color 0.3s;
+}
+
+.WelcomePage .links a:hover {
+  color: #004d40;
+}
+
+.WelcomePage .logo p {
+  margin: 5px 0;
+}
+
+.WelcomePage .ministry {
+  text-align: right !important;
+  padding-left: 20px;
+  
+  /* padding-bottom:20em; */
+  width: 40%;
+  margin-left: 20em; 
+  margin-right: auto;
+}
+
+.WelcomePage .title {
+  text-align: center;
+}
+
+.WelcomePage .title p {
+  margin: 5px 0;
+}
+
+/* New styles for smaller and centered lorem ipsum text */
+.WelcomePage p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px; /* Reduce space above paragraphs */
+  margin-bottom: 5px; /* Reduce space below paragraphs */
+  font-weight: 400;
+}
+.WelcomePage p span{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px; /* Reduce space above paragraphs */
+  margin-bottom: 5px; /* Reduce space below paragraphs */
+  text-decoration: underline;
+  font-weight: 100;
+}
+.h3-container {
+  text-align: center;
+}
+
+.h3-container h4 {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+}

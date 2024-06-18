@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .LoginPage {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5;
+  }
+  
+  .LoginPage .container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .LoginPage .left, .LoginPage .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .LoginPage .left {
+    background: linear-gradient(to bottom right, #00796b, #004d40);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .LoginPage .ministry {
+    text-align: left;
+  }
+  
+  .LoginPage .title {
+    text-align: left;
+  }
+  
+  .LoginPage .title p {
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .LoginPage .right {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .LoginPage .language {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .LoginPage .language a {
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  .LoginPage .language a:hover {
+    color: #004d40;
+  }
+  
+  .LoginPage h1 {
+    color: #00796b;
+  }
+  
+  .LoginPage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .LoginPage form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .LoginPage form .forgot-password {
+    align-self: flex-end;
+    margin: 10px 0;
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  .LoginPage form .forgot-password:hover {
+    color: #004d40;
+  }
+  
+  .LoginPage form button {
+    width: 80%;
+    padding: 10px;
+    background: linear-gradient(to right, #00796b, #004d40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .LoginPage form button:hover {
+    background: linear-gradient(to right, #004d40, #00796b);
+  }
+  
+  .LoginPage .back-home {
+    margin-top: 20px;
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  .LoginPage .back-home:hover {
+    color: #004d40;
+  }
+  
